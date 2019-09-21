@@ -4836,3 +4836,13 @@ a.badge:hover, a.badge:focus {
 @media print {
   .hidden-print {
     display: none !important; } }
+
+    /* KRASHNIK CUSTOMIZATIONS */
+
+.list-unstyled2 {
+  /* padding-left: 0; */
+  list-style: none;
+  /* margin-block-end: 0em; */
+  }
+
+ ul { padding-inline-start: 25px; }   /* ZAIN FIX THE SPACING ON THIS */
