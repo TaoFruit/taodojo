@@ -1,6 +1,23 @@
 const stripe = Stripe('pk_test_M4lUHJesnz3f9gWbUJzdncMV');
 const fetchlink = 'https://stripedonate.azurewebsites.net/api/StripeHttpTrigger?code=/xlyHNsnNnqie7yQTDf0fVgPAGaC/D259rKok9dNWRraEIX8MhX5yg==';
 
+
+//Donation Modal
+$('.predefined-amount input[name=total-amount]:checked').parent('label').addClass("selected");
+$('.predefined-amount input[name=total-amount]').on('click',function() {
+	$('.predefined-amount input[name=total-amount]:not(:checked)').parent('label').removeClass("selected");
+	$(this).parent('label').addClass("selected");
+});
+
+
+//Donation Modal2
+$('.predefined-amount2 input[name=subscription]:checked').parent('label').addClass("selected");
+$('.predefined-amount2 input[name=subscription]').on('click',function() {
+	$('.predefined-amount2 input[name=subscription]:not(:checked)').parent('label').removeClass("selected");
+	$(this).parent('label').addClass("selected");
+});
+
+
 const elements = stripe.elements();
 const cardElement = elements.create('card');
 cardElement.mount('#card-element');
