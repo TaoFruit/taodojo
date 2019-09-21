@@ -26,8 +26,13 @@
 	<link rel="stylesheet" href="style.css">
 	<!-- include the site responsive stylesheet -->
 	<link rel="stylesheet" href="css/responsive.css">
+	<link href="vendor/magnific/magnific-popup.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="css/components/bs-switches.css" type="text/css" /> <!-- Krashnik Stripe Integration -->
+	<link rel="stylesheet" href="css/components/radio-checkbox.css" type="text/css" /> <!-- Krashnik Stripe Integration -->
+	<link href="colors/color1.css" rel="stylesheet" type="text/css"> <!-- Krashnik Stripe Integration -->
+	
 </head>
-<body>
+<body class="home">
 	<!-- main container of all the page elements -->
 	<div id="wrapper">
 		<!-- header of the page -->
@@ -102,7 +107,7 @@
 										</li>
 										<li><a href="careers.html">Careers</a></li>
 										<li><a href="partner.html">Partner</a></li>
-										<li><a href="donate.html">Donate</a></li>
+										<li><a href="#DonateModal" class="lightbox">Donate</a></li>
 									</ul>
 								</div>
 								<!-- navbar form -->
@@ -1080,7 +1085,76 @@
 				</div>
 			</form>
 		</div>
+		
+	<!-- Donate Form Modal -->
+<div class="fade in modal" id="DonateModal" tabindex="-1" role="dialog" data-backdrop="static">
+		<div class="modal-dialog" role="document">
+		  <div class="modal-content">
+			  <form action="#" method="post" id="payment-form">
+				<div class="modal-header">
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				  <div class="row">
+					  <div class="col-md-6 col-sm-6 total-amount-option">
+						  <h4>Choose an amount</h4>
+						  <ul class="predefined-amount">
+							  <li><label class=""><input type="radio" name="total-amount" onclick="updateForm(this);" value="2500">$25</label></li>
+							  <li><label class="selected"><input type="radio" name="total-amount" onclick="updateForm(this);" value="5000" checked="checked">$50</label></li>
+							  <li><label class=""><input type="radio" name="total-amount" onclick="updateForm(this);" value="10000">$100</label></li>
+							  <li><label class=""><input type="radio" name="total-amount" onclick="updateForm(this);" value="25000">$250</label></li>
+							  <li><label class=""><input type="radio" name="total-amount" onclick="updateForm(this);" value="50000">$500</label></li>
+						  </ul>
+					  </div>
+					  <div class="col-md-6 col-sm-6 total-amount-option">
+						  <h4>Frequency</h4>
+						  <ul class="predefined-amount2 predefined-amount">
+							  <input class="bt-switch" type="checkbox" data-inverse="true" data-on-text="Monthly" data-off-text="One-Time" data-on-color="info" data-off-color="info" name="subscription" id="subscription" onchange="updateForm(this);">
+						  </ul>
+					  </div>
+					 </div>
+			  </div>
+				<div class="modal-body">
+					 <div class="row">
+					  <div class="col-md-6 col-sm-6 donation-form-infocol modal-header">
+						  <h4>Personal info</h4>
+						  <input type="text" class="form-control element-block" placeholder="Full Name" name="name" id="cardholder-name">
+						  <input type="email" class="form-control element-block" placeholder="Email Address" name="email" id="email">
+						  <input type="tel" class="form-control element-block" placeholder="Phone Number" name="tel" id="tel">
+						  <div>
+							  <input id="membership" class="checkbox-style" name="membership" onchange="updateForm(this);" type="checkbox">
+							  <label for="membership" class="checkbox-style-1-label checkbox-small" style="font-weight:normal;">Register as a Member</label>
+							  </div>
+					  </div>
+					  <div class="col-md-6 col-sm-6 donation-form-infocol modal-header">
+						  <h4>Billing Details</h4>
+						  <div class="form-control"  id="card-element"></div>
+						  <input type="text" class="form-control element-block" placeholder="Address" name="Address" id="address">
+							 <div class="row">
+							  <div class="col-md-8 col-sm-8 col-xs-8">
+								  <input type="text" class="form-control element-block" placeholder="City" name="city" id="city">
+							  </div>
+							  <div class="col-md-4 col-sm-4 col-xs-4">
+								  <input type="text" class="form-control element-block" placeholder="State" name="state" id="state">
+							  </div>
+						  </div>
+					  </div>
+				   </div>
+				</div>
+				<div class="modal-footer text-align-center">
+				  <button type="button" class="btn btn-primary" id="card-button">MAKE YOUR DONATION NOW</button>
+				  <div class="spacer-10"></div>
+				  <div id="card-errors" role="alert" class="text-center alert-error"></div>
+				  <div class="spacer-10"></div>
+				  <p><small>Tao Learning Institute is a Section 501(c)3 charitable organization, EIN 83-3086300.<br>All donation are deemed tax-deductible absent any limitations on deductibility applicable to a particular taxpayer.<br>No goods or services were provided in exchange for your contribution.</small></p>
+				</div>
+			  </form>
+			  <script src="https://js.stripe.com/v3/"></script>
+		  </div>
+		</div>
+  </div>
+		
 	</div>
+
+	
 	<!-- include jQuery -->
 	<script src="js/jquery.js"></script>
 	<!-- include jQuery -->
@@ -1089,5 +1163,9 @@
 	<script src="js/jquery.main.js"></script>
 	<!-- include jQuery -->
 	<script type="text/javascript" src="js/init.js"></script>
+	<script src="js/client.js"></script> <!-- Krashnik Stripe Integration -->
+	<script src="js/components/bs-switches.js"></script> <!-- Krashnik Stripe Integration -->
+	<script>jQuery(".bt-switch").bootstrapSwitch();</script>
+
 </body>
 </html>

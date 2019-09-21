@@ -4850,3 +4850,215 @@ a.badge:hover, a.badge:focus {
  .spaceradd {
    margin-bottom: 40px;
  }
+
+ 
+/* KRASHNIK CUSTOMIZATIONS */
+
+a, .text-primary, .btn-primary .badge, .btn-link,a.list-group-item.active > .badge,.nav-pills > .active > a > .badge, p.drop-caps:first-child:first-letter, .accent-color, .nav-np .next:hover, .nav-np .prev:hover, .basic-link, .pagination > li > a:hover,.pagination > li > span:hover,.pagination > li > a:focus,.pagination > li > span:focus, .icon-box-inline span, .pricing-column h3, .post .post-title a:hover, a, .post-actions .comment-count a:hover, .pricing-column .features a:hover, a:hover, .list-group-item a:hover, .icon-box.ibox-plain .ibox-icon i,.icon-box.ibox-plain .ibox-icon img, .icon-box.ibox-border .ibox-icon i,.icon-box.ibox-border .ibox-icon img, address strong, ul.checks > li > i, ul.angles > li > i, ul.carets > li > i, ul.chevrons > li > i, ul.icons > li > i, .widget li .meta-data a:hover, .sort-source li.active a, #menu-toggle:hover, .footer-menu li a:hover, .megamenu-sub-title i, .dd-menu .megamenu-container ul li a:hover, .fact-ico, .widget_categories ul li a:hover, .widget_archive ul li a:hover, .widget_recent_entries ul li a:hover, .widget_recent_entries ul li a:hover, .widget_recent_comments ul li a:hover, .widget_links ul li a:hover, .widget_meta ul li a:hover, .widget.recent_posts ul li h5 a:hover, .testimonial-block blockquote:before, .testimonial-info strong, .header-style2 .dd-menu > li:hover > a, .header-style3 .dd-menu > li:hover > a, .widget_links ul li.active a, .causes-list-item h4 a, .urgent-cause .post-title a, .site-footer .sp-links:hover strong, .header-info-col i, .flex-caption-cause h3 a, .dd-menu > li > a > i, .cause-target, .owl-carousel .blog-grid-item h3 a:hover, .sticky .dd-menu > li:hover > a > i, .header-style2 .dd-menu > li:hover > a > i, .header-style3 .dd-menu > li:hover > a > i{
+	color:#42b8d4;
+}
+
+#DonateModal .modal-body{
+	background:#f6f6f6;
+	padding-left:40px;
+	padding-right:40px;
+}
+#DonateModal .modal-footer{
+	padding-left:70px;
+	padding-right:70px;
+}
+.donation-form-infocol:first-child label{
+	line-height:30px;
+}
+#DonateModal .modal-dialog{
+	width:800px;
+}
+#DonateModal .modal-header{
+	position:relative;
+}
+#DonateModal .modal-header h4{
+  margin:0 0 15px 0;
+	color:#333;
+	font-weight:400;
+	line-height:1.5em;
+	font-family: 'Playfair Display', serif;
+  font-size:18px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	margin-bottom:20px;
+}
+#DonateModal .modal-header .form-control{
+	margin-bottom:0;
+}
+.total-amount-option{
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:5px;
+}
+.total-amount-option .input-group{
+	width:70%;
+	margin-left:15%;
+}
+.donation-choice-breaker{
+	position:absolute;
+	width:24px;
+	height:24px;
+	line-height:24px;
+	color:#fff;
+	border-radius:100%;
+	left:50%;
+	top:50%;
+	margin:-12px 0 0 -6px;
+	text-transform:uppercase;
+	font-weight:700;
+	text-align:center;
+	font-size:11px;
+	background:#ccc;
+}
+.predefined-amount{
+	list-style-type:none;
+	margin:0;
+}
+.predefined-amount li{
+	display:inline-block;
+	margin-right:5px;
+}
+.predefined-amount li label{
+	cursor:pointer;
+	border:2px solid #e6e6e6;
+	padding:6px 10px;
+  border-radius:3px;
+  font-weight: 400;
+}
+.predefined-amount li label.selected{
+	color:#fff;
+}
+.predefined-amount li input{
+	display:none;
+}
+.donation-form-infocol:first-child{
+	border-right:1px solid #e6e6e6;
+}
+
+.modal .input-group{
+	margin-bottom:20px;
+}
+.modal-header h4{
+	margin-bottom:0;
+}
+.modal-header h4{
+	font-size:18px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+.modal-header .close{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background: red none repeat scroll 0% 0%;
+	width: 30px;
+	height: 30px;
+	opacity: .8;
+	color: rgb(255, 255, 255);
+	text-shadow: none;
+	line-height: 1;
+	margin-top: 0px;
+	padding: 0px;
+	font-size:15px;
+	border-radius:0 6px 0 0;
+	display: block;
+	z-index: 11;
+}
+.modal-header .close:hover{
+	opacity:1;
+}
+.modal-dialog{-webkit-transition:-webkit-transform .3s ease-out;-o-transition:-o-transform .3s ease-out;transition:transform .3s ease-out;-webkit-transform:translate(0,-25%);-ms-transform:translate(0,-25%);-o-transform:translate(0,-25%);transform:translate(0,-25%)}.modal.in .modal-dialog{-webkit-transform:translate(0,0);-ms-transform:translate(0,0);-o-transform:translate(0,0);transform:translate(0,0)}.modal-open .modal{overflow-x:hidden;overflow-y:auto}.modal-dialog{position:relative;width:auto;margin:10px}.modal-content{position:relative;background-color:#fff;-webkit-background-clip:padding-box;background-clip:padding-box;border:1px solid #999;border:1px solid rgba(0,0,0,.2);border-radius:6px;outline:0;-webkit-box-shadow:0 3px 9px rgba(0,0,0,.5);box-shadow:0 3px 9px rgba(0,0,0,.5)}.modal-backdrop{position:fixed;top:0;right:0;bottom:0;left:0;z-index:1040;background-color:#000}.modal-backdrop.fade{filter:alpha(opacity=0);opacity:0}.modal-backdrop.in{filter:alpha(opacity=50);opacity:.5}.modal-header{padding:15px;border-bottom:1px solid #e5e5e5}.modal-header .close{margin-top:-2px}.modal-title{margin:0;line-height:1.42857143}.modal-body{position:relative;padding:15px}.modal-footer{padding:15px;text-align:right;border-top:1px solid #e5e5e5}.modal-footer .btn+.btn{margin-bottom:0;margin-left:5px}.modal-footer .btn-group .btn+.btn{margin-left:-1px}.modal-footer .btn-block+.btn-block{margin-left:0}.modal-scrollbar-measure{position:absolute;top:-9999px;width:50px;height:50px;overflow:scroll}@media (min-width:768px){.modal-dialog{width:600px;margin:30px auto}.modal-content{-webkit-box-shadow:0 5px 15px rgba(0,0,0,.5);box-shadow:0 5px 15px rgba(0,0,0,.5)}.modal-sm{width:300px}}
+
+.btn-danger {
+  /* padding-left:30px; */
+  padding-right:30px;
+  -webkit-transition:all 0.3s ease 0.2s;
+  -moz-transition:all 0.3s ease 0.2s;
+  -ms-transition:all 0.3s ease 0.2s;
+  -o-transition:all 0.3s ease 0.2s;
+  transition:all 0.3s ease 0.1s;
+  border-width:0;
+  text-decoration:none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-transform:uppercase;
+  line-height: 2.5;
+  font-weight:700;
+  letter-spacing:1px;
+  color:#fff;
+  position:relative;
+  font-size:12px;
+  border:1px solid transparent;
+  -webkit-border-radius:3px;
+  border-radius:0;
+  overflow:hidden;
+}
+
+#DonateModal .modal-dialog{
+  width:97%;
+}
+
+.modal .tab-content{
+	padding:0;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+/* 
+.fade{opacity:0;-webkit-transition:opacity .15s linear;-o-transition:opacity .15s linear;transition:opacity .15s linear}.fade.in{opacity:1}.collapse{display:none}.collapse.in{display:block} */
+
+/* ==================================================
+   5. Spacers Sets
+================================================== */
+.spacer-10{
+	height:10px;
+	clear:both;
+	width:100%;
+}
+.spacer-20{
+	height:20px;
+	clear:both;
+	width:100%;
+}
+.spacer-30{
+	height:30px;
+	clear:both;
+	width:100%;
+}
+.spacer-40{
+	height:40px;
+	clear:both;
+	width:100%;
+}
+.spacer-50{
+	height:50px;
+	clear:both;
+	width:100%;
+}
+.spacer-60{
+	height:60px;
+	clear:both;
+	width:100%;
+}
+.spacer-75{
+	height:75px;
+	clear:both;
+	width:100%;
+}
+.spacer-100{
+	height:100px;
+	clear:both;
+	width:100%;
+}
+
+
+@media (min-width:992px){.modal-lg{width:900px}}
+
+
