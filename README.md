@@ -1,6 +1,6 @@
 # Developer Dojo
 
-<h1>Become A Bushido Coder</h1>
+<h1 align="center">Become A Bushido Coder</h1>
 We Teach Mindful Programming, IT Development, DevOps Strategy and the Art of Zen Tech Leadership.
 
 
