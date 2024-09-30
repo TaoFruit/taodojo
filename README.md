@@ -1,13 +1,37 @@
-# Developer Dojo
-
-<h1 align="center">Become A Bushido Coder</h1>
-We Teach Mindful Programming, IT Development, DevOps Strategy and the Art of Zen Tech Leadership.
-
-
 <h1 align="center">
   <br>
   <img src="https://github.com/taolearning/developerdojo/blob/gh-pages/images/logo.svg" alt="Developer Dojo" width="400">
 </h1>
+<h1 align="center">Become A Bushido Coder</h1>
+
+- We Teach Mindful Programming, IT Development, DevOps Strategy and the Art of Zen Tech Leadership. Students gain experience and work with experts in development to become Bushido Coders.
+- We have Senior Developers who volunteer their time to create easy to understand, yet very in-depth training material to lead the programmers of tomorrow. With over 20 years’ experience in IT development while leading international teams in startups, we have found a clear disconnect between those who have a desire to code and those who have mastered the art. This free coding academy breaks down the philosophy of IT and teaches how it is a poetic artistic expression. We expand the mind of the student to understand new literacy.
+- We share industry-standard resources such as LeetCode and TeamBlind so those seeking career advancement have access to the best tools available. Our senior developers have Live Streams where participants can follow along as we create enterprise-level software and IT Solutions.
+
+# ANDROID OPS
+
+A.N.D.R.O.I.D. Ops is a comprehensive operational framework designed to optimize business processes and drive efficiency, leveraging automation, digital technologies, and collaborative practices. It encompasses the following focus areas:
+
+**Advance**: Streamline and automate repetitive tasks and processes, integrating digital tools and technologies to enhance efficiency, reduce errors, and promote scalability.
+
+**Network**: Foster collaboration and communication across departments and teams, leveraging digital platforms and technologies to enable real-time collaboration, virtual teamwork, and effective knowledge sharing.
+
+**Design**: Create optimized operational systems by aligning processes with organizational goals, customer needs, and sustainability principles, ensuring scalability, customer-centricity, and efficient resource utilization.
+
+**Research**: Conduct thorough research and analysis to identify improvement areas, emerging trends, and innovative practices, utilizing data and analytics to drive informed decision-making and continuous improvement efforts.
+
+**Optimize**: Continuously evaluate and refine operational processes to maximize efficiency, productivity, and quality, utilizing performance metrics and KPIs to measure progress and identify opportunities for optimization.
+
+**Implement**: Successfully execute optimized processes, leveraging automation, and digital technologies, while providing training and support to employees to ensure smooth implementation and adoption of new practices.
+
+**Deliver**: Focus on delivering value to customers through efficient and effective operations, monitoring customer feedback, measuring satisfaction, and making necessary adjustments to enhance the delivery process.
+
+The A.N.D.R.O.I.D. Ops framework integrates sustainability, scalability, collaboration, risk management, customer-centricity, change management, digital transformation, employee empowerment, and performance metrics into each stage of the operational lifecycle. By adopting A.N.D.R.O.I.D. Ops, organizations can optimize their processes, enhance productivity, drive innovation, and adapt to the changing demands of the automation age while remaining focused on delivering exceptional value to their customers.
+
+
+
+
+
 
 
 ## Getting Started
